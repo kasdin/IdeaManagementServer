@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.UI;
+using IdeaManagementServer.Models;
 
 namespace IdeaManagementServer.Controllers.Api
 {
@@ -25,9 +27,9 @@ namespace IdeaManagementServer.Controllers.Api
         }
 
         // GET /api/customers?id=1
-        public Customers GetCustomers(int id)
+        public Customers GetCustomers(string name)
         {
-            Customers customer = Context.tbl_customers.SingleOrDefault(c => c.fld_id == id);
+            Customers customer = Context.tbl_customers.SingleOrDefault(c => c.fld_name == name);
 
             if (customer == null)
             {
@@ -35,6 +37,18 @@ namespace IdeaManagementServer.Controllers.Api
             }
             return customer;
         }
+        
+        /*public Customers GetCustomersInfo(string name)
+        {
+            Customers customer = Context.tbl_customers.SingleOrDefault(c => c.fld_name == name);
+
+            if (customer == null)
+            {
+                throw new HttpResponseException(HttpStatusCode.NotFound);
+            }
+            return customer;
+        }
+        */
         [HttpPost]
         public Customers CreateCustomers(Customers customer)
         {
@@ -90,5 +104,7 @@ namespace IdeaManagementServer.Controllers.Api
                 Context.SaveChanges();
             }
         }
+
+      
     }
 }

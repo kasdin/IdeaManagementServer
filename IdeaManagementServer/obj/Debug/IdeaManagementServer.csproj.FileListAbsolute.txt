@@ -92,3 +92,11 @@ C:\Users\kaspe\source\repos\IdeaManagementServer\IdeaManagementServer\obj\Debug\
 C:\Users\kaspe\source\repos\IdeaManagementServer\IdeaManagementServer\obj\Debug\IdeaManagementServer.csproj.CopyComplete
 C:\Users\kaspe\source\repos\IdeaManagementServer\IdeaManagementServer\obj\Debug\IdeaManagementServer.dll
 C:\Users\kaspe\source\repos\IdeaManagementServer\IdeaManagementServer\obj\Debug\IdeaManagementServer.pdb
+C:\Users\kaspe\source\repos\IdeaManagementServer\IdeaManagementServer\bin\NUnit3.TestAdapter.dll
+C:\Users\kaspe\source\repos\IdeaManagementServer\IdeaManagementServer\bin\NUnit3.TestAdapter.pdb
+C:\Users\kaspe\source\repos\IdeaManagementServer\IdeaManagementServer\bin\nunit.engine.dll
+C:\Users\kaspe\source\repos\IdeaManagementServer\IdeaManagementServer\bin\nunit.engine.api.dll
+C:\Users\kaspe\source\repos\IdeaManagementServer\IdeaManagementServer\bin\nunit.engine.core.dll
+C:\Users\kaspe\source\repos\IdeaManagementServer\IdeaManagementServer\bin\nunit.framework.dll
+C:\Users\kaspe\source\repos\IdeaManagementServer\IdeaManagementServer\bin\nunit.framework.pdb
+C:\Users\kaspe\source\repos\IdeaManagementServer\IdeaManagementServer\bin\nunit.framework.xml

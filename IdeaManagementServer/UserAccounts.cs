@@ -10,7 +10,7 @@ namespace IdeaManagementServer
     public partial class UserAccounts
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int fld_id { get; set; }
 
         [StringLength(50)]
