@@ -90,9 +90,9 @@ namespace IdeaManagementServer.Controllers.Api
 
         //DELETE /Api/customers/1
         [HttpDelete]
-        public void DeleteCustomers(int id)
+        public void DeleteCustomers(string name)
         {
-            var customerInDb = Context.tbl_customers.SingleOrDefault(c => c.fld_id == id);
+            var customerInDb = Context.tbl_customers.SingleOrDefault(c => c.fld_name== name);
 
             if (customerInDb == null)
             {
